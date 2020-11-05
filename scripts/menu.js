@@ -39,7 +39,7 @@ $(document).ready(function() {
   $("#mobileexit").click(function(){
     $("#mobileexit").hide();
     $(".mobilemenuactivator").show();
-    $(".linksmenu").css("top", "-100%");
+    $(".linksmenu").css("top", "calc((100vh - 45px) * -1)");
   });
 
 });

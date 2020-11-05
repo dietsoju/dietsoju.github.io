@@ -578,6 +578,7 @@ ul.share-buttons .sr-only{
   .headerimage {
     background-image: url("images/btsvertical.jpg");
     background-position: center;
+    border-right: 0px;
   }
 
   .headercontent {
@@ -614,7 +615,7 @@ ul.share-buttons .sr-only{
       "linksarea";
     grid-template-columns: 100%;
     right: 0;
-    top: -100%;
+    top: calc((100vh - 45px) * -1);
     border-right: 1px;
     transition: 0.9s linear;
     width: 100%;
