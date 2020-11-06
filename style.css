@@ -507,12 +507,12 @@ ul.share-buttons .sr-only{
     font-family: "Gothic A1", sans-serif;
     font-weight: 400;
     margin: 0px auto;
+    text-align: center;
   }
 
   .articledate {
     padding-top: 0;
-    text-align: left;
-    margin-left: calc(100vw * 0.1);
+    text-align: center;
   }
 
   .articleheaderimage {
@@ -630,9 +630,6 @@ ul.share-buttons .sr-only{
     display: block;
   }
 
-
-
-
 }
 
 @media only screen and (max-width: 512px) {
@@ -648,11 +645,6 @@ ul.share-buttons .sr-only{
 
   .contentblockphoto {
     width: 100%;
-  }
-
-  .articlebox {
-    width: 100%;
-    margin-left: 0px;
   }
 
   .twophotobox {
