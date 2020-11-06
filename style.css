@@ -522,7 +522,7 @@ ul.share-buttons .sr-only{
     left: 0;
     transform: none;
     margin: 0px auto;
-    width: 80%;
+    width: 100%;
     height: auto;
   }
 
@@ -531,12 +531,17 @@ ul.share-buttons .sr-only{
     width: 100%;
     margin-left: 0px;
     margin-top: calc(100vw * 0.1);
+    margin-bottom: calc(100vw * 0.1);
     height: auto;
     display: block;
   }
 
-  .bodytextcontainer, .commentsection, .articlewideimage {
+  .bodytextcontainer, .commentsection {
     width: 80%;
+  }
+
+  .articlewideimage {
+    width: 100%;
   }
 
   .twophotobox {
@@ -544,8 +549,8 @@ ul.share-buttons .sr-only{
   }
 
   .youtube {
-    width: 80%;
-    height: calc(100vw* 0.80 * .5625);
+    width: 100%;
+    height: calc(100vw * .5625);
   }
 
   .dividermedia {
@@ -673,16 +678,5 @@ ul.share-buttons .sr-only{
     margin-left: 5%;
   }
 
-  .dividermedia {
-    height: 4em;
-  }
 
-  .mobilearticletitle {
-    padding-top: 64px;
-    padding-bottom: 64px
-  }
-
-  .articlebox {
-    margin-top: 4em;
-  }
 }
