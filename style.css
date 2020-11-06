@@ -61,7 +61,6 @@ a {
   height: calc(100vh - 45px);
   width: calc(100vw/3);
   z-index: 1;
-  border-right: 1px solid #cfcfcf;
   background-color: white;;
   position: fixed;
   transition: 0.8s linear;
@@ -616,7 +615,7 @@ ul.share-buttons .sr-only{
     grid-template-columns: 100%;
     right: 0;
     top: calc((100vh - 45px) * -1);
-    border-right: 1px;
+    border-right: 0px;
     transition: 0.9s linear;
     width: 100%;
     margin: 0px auto;
