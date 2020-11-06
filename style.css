@@ -78,7 +78,7 @@ a {
   font-family: "Gothic A1", sans-serif;
   text-align: center;
   letter-spacing: 0.05em;
-  font-weight: 300;
+  font-weight: 400;
   border-bottom: 1px solid #cfcfcf;
   background-color: white;;
 }
@@ -262,7 +262,7 @@ main {
 
 .contentblocktitle {
   font-family: "Gothic A1", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 0.025em;
   color: black;
@@ -320,7 +320,7 @@ main {
 
 .bodytext {
   font-family: "Gothic A1", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   color: black;
 }
@@ -332,7 +332,7 @@ main {
 
 .articletitle {
   font-family: "Gothic A1", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 0.025em;
   color: black;
@@ -669,6 +669,11 @@ ul.share-buttons .sr-only{
   .mobiletag {
     margin-left: 5%;
   }
+
+  .headerarticletitle, .mobilearticletitle, .headerread {
+    font-size: 22px;
+  }
+
 
 
 }
